@@ -1,0 +1,83 @@
+body {
+    background-color: #ffac81;
+    font-family: "nunito", sans-serif;
+}
+
+.blurb h2 {
+    color: #941b0c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #d00000;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.list li {
+    background-color: #ffac81;
+    color: #d00000;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNav .navbar-brand {
+    color: #941b0c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    color: #941b0c;
+}
+
+#topleftone h2 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+#topleftone .topleft {
+    color: #941b0c;
+}
+
+.navbar {
+    transition: 500ms;
+}
+
+.navbar.scrolled {
+    background-color: rgba(31, 14, 2, 0.788);
+    transition-timing-function: ease;
+}
+
+@media(max-width:1359px) {
+    #topleftone h2 {
+        font-size: 2.5rem;
+    }
+
+    .list li {
+        font-size: 0.9rem;
+    }
+}
+
+#icon img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    margin-top: 100px;
+}
